@@ -1,9 +1,9 @@
 ---
 title: 'CloudFlare Fun For All'
 date: '2022-08-03'
-author: 'your name here'
+author: 'Ashley Robbins'
 ---
 
-Enter your text here, if you want **bold** text use `**` on each side of the text you want bolded. If you want *italicized* text use only `*` on each side of the text.  If you want ***both*** use `***` or `**_` on each side of the text. 
+What is CloudFlare?
 
-For more information on markdown syntax see this link: https://www.markdownguide.org/basic-syntax/
+**Cloudflare** is a *global network* designed to make everything you connect to the Internet secure, private, fast, and reliable. Secure your websites, APIs, and Internet applications. Protect corporate networks, employees, and devices. Write and deploy code that runs on the network edge.
