@@ -23,28 +23,28 @@ export default function Home({ allPostsData }) {
             <button onClick={() => setCategory(viewCategory === 'all' ? 'all': 'all')}>All</button>
           </li>
           <li className='navbarItem'>
-            <button onClick={() => setCategory(viewCategory === 'neck-pain' ? 'all' : 'neck-pain')}>Neck Pain</button>
+            <button onClick={() => setCategory(viewCategory === 'cloudflare' ? 'all' : 'cloudflare')}>cloudflare</button>
           </li>
           <li className='navbarItem'>           
-           <button onClick={() => setCategory(viewCategory === 'low-back-pain' ? 'all' : 'low-back-pain')}>Low Back Pain</button>
+           <button onClick={() => setCategory(viewCategory === 'azure' ? 'all' : 'azure')}>azure</button>
           </li>
           <li className='navbarItem'>
-            <button onClick={() => setCategory(viewCategory === 'chronic-pain' ? 'all' : 'chronic-pain')}>Chronic Pain</button>
+            <button onClick={() => setCategory(viewCategory === 'axway' ? 'all' : 'axway')}>axway</button>
           </li>
           <li className='navbarItem'>
-            <button onClick={() => setCategory(viewCategory === 'pelvic-health' ? 'all' : 'pelvic-health')}>Pelvic Health</button>
+            <button onClick={() => setCategory(viewCategory === 'github' ? 'all' : 'github')}>github</button>
           </li>
           <li className='navbarItem'>
-            <button onClick={() => setCategory(viewCategory === 'pelvic-health' ? 'all' : 'pelvic-health')}>Pelvic Health</button>
+            <button onClick={() => setCategory(viewCategory === 'github' ? 'all' : 'github')}>github</button>
           </li>
           <li className='navbarItem'>
-            <button onClick={() => setCategory(viewCategory === 'pelvic-health' ? 'all' : 'pelvic-health')}>Pelvic Health</button>
+            <button onClick={() => setCategory(viewCategory === 'github' ? 'all' : 'github')}>github</button>
           </li>
           <li className='navbarItem'>
-            <button onClick={() => setCategory(viewCategory === 'pelvic-health' ? 'all' : 'pelvic-health')}>Pelvic Health</button>
+            <button onClick={() => setCategory(viewCategory === 'github' ? 'all' : 'github')}>github</button>
           </li>
           <li className='navbarItem'>
-            <button onClick={() => setCategory(viewCategory === 'pelvic-health' ? 'all' : 'pelvic-health')}>Pelvic Health</button>
+            <button onClick={() => setCategory(viewCategory === 'github' ? 'all' : 'github')}>github</button>
           </li>
           <li className='navbarItem'>
             <button onClick={() => setCategory(viewCategory === 'miscellaneous' ? 'all' : 'miscellaneous')}>Miscellaneous</button>

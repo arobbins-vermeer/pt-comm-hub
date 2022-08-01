@@ -1,12 +1,12 @@
 ---
-title: 'Pelvic Health 2'
+title: 'github 2'
 date: '2019-07-02'
-description: 'This is my second article about pelvic health.'
-image: '/images/pelvic-health-2.jpg'
-url: 'https://herenowbody.com/pelvic-health/pelvic-health-2'
+description: 'This is my second article about github.'
+image: '/images/github-2.jpg'
+url: 'https://herenowbody.com/github/github-2'
 ---
 
-Pelvic Health We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
+github We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
 
 You can use Static Generation for many types of pages, including:
 

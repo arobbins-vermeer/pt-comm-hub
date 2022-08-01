@@ -1,12 +1,12 @@
 ---
-title: 'Neck Pain 2'
+title: 'cloudflare 2'
 date: '2020-04-02'
-description: 'This is my second article about low back pain.'
-image: '/images/neck-pain-2.jpg'
-url: 'https://herenowbody.com/low-back-pain/low-back-pain-2'
+description: 'This is my second article about azure.'
+image: '/images/cloudflare-2.jpg'
+url: 'https://herenowbody.com/azure/azure-2'
 ---
 
-Neck Pain We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
+cloudflare We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
 
 You can use Static Generation for many types of pages, including:
 

@@ -35,10 +35,10 @@ export default function Layout({ children, home }) {
               <div className='nine columns header'>
                   <h1 className='headerTitle'>{name}</h1>
                 {/* <section className='navbar'>
-                  <button onClick={() => setCategory(viewCategory === 'neck-pain' ? 'all' : 'neck-pain')}>Neck Pain</button>
-                  <button onClick={() => setCategory(viewCategory === 'low-back-pain' ? 'all' : 'low-back-pain')}>Low Back Pain</button>
-                  <button onClick={() => setCategory(viewCategory === 'chronic-pain' ? 'all' : 'chronic-pain')}>Chronic Pain</button>
-                  <button onClick={() => setCategory(viewCategory === 'pelvic-health' ? 'all' : 'pelvic-health')}>Pelvic Health</button>
+                  <button onClick={() => setCategory(viewCategory === 'cloudflare' ? 'all' : 'cloudflare')}>cloudflare</button>
+                  <button onClick={() => setCategory(viewCategory === 'azure' ? 'all' : 'azure')}>azure</button>
+                  <button onClick={() => setCategory(viewCategory === 'axway' ? 'all' : 'axway')}>axway</button>
+                  <button onClick={() => setCategory(viewCategory === 'github' ? 'all' : 'github')}>github</button>
                   <button onClick={() => setCategory(viewCategory === 'miscellaneous' ? 'all' : 'miscellaneous')}>Miscellaneous</button>
                   <button onClick={() => setCategory(viewCategory === 'all' ? 'all': 'all')}>All</button>      
                 </section> */}
@@ -71,10 +71,10 @@ export default function Layout({ children, home }) {
 
     {/* <div className='row'>
       <div className='twelve columns navbar'>
-             <button onClick={() => setCategory(viewCategory === 'neck-pain' ? 'all' : 'neck-pain')}>Neck Pain</button>
-            <button onClick={() => setCategory(viewCategory === 'low-back-pain' ? 'all' : 'low-back-pain')}>Low Back Pain</button>
-            <button onClick={() => setCategory(viewCategory === 'chronic-pain' ? 'all' : 'chronic-pain')}>Chronic Pain</button>
-            <button onClick={() => setCategory(viewCategory === 'pelvic-health' ? 'all' : 'pelvic-health')}>Pelvic Health</button>
+             <button onClick={() => setCategory(viewCategory === 'cloudflare' ? 'all' : 'cloudflare')}>cloudflare</button>
+            <button onClick={() => setCategory(viewCategory === 'azure' ? 'all' : 'azure')}>azure</button>
+            <button onClick={() => setCategory(viewCategory === 'axway' ? 'all' : 'axway')}>axway</button>
+            <button onClick={() => setCategory(viewCategory === 'github' ? 'all' : 'github')}>github</button>
             <button onClick={() => setCategory(viewCategory === 'miscellaneous' ? 'all' : 'miscellaneous')}>Miscellaneous</button>
             <button onClick={() => setCategory(viewCategory === 'all' ? 'all': 'all')}>All</button>          *
         </div>

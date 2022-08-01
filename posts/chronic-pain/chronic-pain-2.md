@@ -1,12 +1,12 @@
 ---
-title: 'Chronic Pain 2'
+title: 'axway 2'
 date: '2018-01-02'
-description: 'This is my second article about chronic pain.'
-image: '/images/chronic-pain-2.jpg'
-url: 'https://herenowbody.com/chronic-pain/chronic-pain-2'
+description: 'This is my second article about axway.'
+image: '/images/axway-2.jpg'
+url: 'https://herenowbody.com/axway/axway-2'
 ---
 
-CHRONIC PAIN We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
+axway We recommend using **Static Generation** (with and without data) whenever possible because your page can be built once and served by CDN, which makes it much faster than having a server render the page on every request.
 
 You can use Static Generation for many types of pages, including:
 
