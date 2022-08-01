@@ -69,7 +69,7 @@ export default function Home({ allPostsData }) {
                 display: (viewCategory === category || viewCategory === 'all') ? "block":"none"
               }}>
               <Link href="/[category]/[id]" as={`/${category}/${id}`}>
-                <a className='postsListSingleTitle'>{title}</a>
+                <a className='postsListSingleTitle' target={"blank"} rel="noopener noreferrer">{title}</a>
               </Link>
               <br />
               {author}
