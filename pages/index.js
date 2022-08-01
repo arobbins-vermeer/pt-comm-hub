@@ -22,9 +22,6 @@ export default function Home({ allPostsData }) {
          <li className='navbarItem'>
             <button onClick={() => setCategory(viewCategory === 'all' ? 'all': 'all')}>All</button>
           </li>
-          <li className='navbarItem'>
-            <button onClick={() => setCategory(viewCategory === 'cloudflare' ? 'all' : 'cloudflare')}>cloudflare</button>
-          </li>
           <li className='navbarItem'>           
            <button onClick={() => setCategory(viewCategory === 'azure' ? 'all' : 'azure')}>azure</button>
           </li>
@@ -32,19 +29,22 @@ export default function Home({ allPostsData }) {
             <button onClick={() => setCategory(viewCategory === 'axway' ? 'all' : 'axway')}>axway</button>
           </li>
           <li className='navbarItem'>
-            <button onClick={() => setCategory(viewCategory === 'github' ? 'all' : 'github')}>github</button>
+            <button onClick={() => setCategory(viewCategory === 'cloudflare' ? 'all' : 'cloudflare')}>cloudflare</button>
           </li>
           <li className='navbarItem'>
             <button onClick={() => setCategory(viewCategory === 'github' ? 'all' : 'github')}>github</button>
           </li>
           <li className='navbarItem'>
-            <button onClick={() => setCategory(viewCategory === 'github' ? 'all' : 'github')}>github</button>
+            <button onClick={() => setCategory(viewCategory === 'jenkins' ? 'all' : 'jenkins')}>jenkins</button>
           </li>
           <li className='navbarItem'>
-            <button onClick={() => setCategory(viewCategory === 'github' ? 'all' : 'github')}>github</button>
+            <button onClick={() => setCategory(viewCategory === 'netiq' ? 'all' : 'netiq')}>netiq</button>
           </li>
           <li className='navbarItem'>
-            <button onClick={() => setCategory(viewCategory === 'github' ? 'all' : 'github')}>github</button>
+            <button onClick={() => setCategory(viewCategory === 'sonarqube' ? 'all' : 'sonarqube')}>sonarqube</button>
+          </li>
+          <li className='navbarItem'>
+            <button onClick={() => setCategory(viewCategory === 'vmware' ? 'all' : 'vmware')}>vmware</button>
           </li>
           <li className='navbarItem'>
             <button onClick={() => setCategory(viewCategory === 'miscellaneous' ? 'all' : 'miscellaneous')}>Miscellaneous</button>
