@@ -15,8 +15,6 @@
     "remark": "^14.0.2",
     "remark-html": "^15.0.1",
     "sort-by": "^1.2.0",
-    "object-path": ">=0.11.8",
-    "eslint": "8.20.0", 
-    "eslint-config-next": "12.2.3"
+    "object-path": ">=0.11.8"
   }
 }
