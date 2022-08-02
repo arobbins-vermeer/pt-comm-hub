@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pt-comm-hub
+  annotations:
+    github.com/project-slug: arobbins-vermeer/pt-comm-hub
+spec:
+  type: other
+  lifecycle: unknown
+  owner: arobbins-vermeer
