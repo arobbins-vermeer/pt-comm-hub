@@ -60,7 +60,7 @@ export default function Home({ allPostsData }) {
       <div className='nine columns postsList'>
         <h2 className= "postsListTitle">Recent Posts</h2>
           <ul className='postsList'>
-            {allPostsData.map(({ id, category, date, title, image }) => (
+            {allPostsData.map(({ id, category, date, title, image, author }) => (
               <li className='postsListItem' key={id} style={{ 
                 display: (viewCategory === category || viewCategory === 'all') ? "block":"none"
               }}>
@@ -68,9 +68,11 @@ export default function Home({ allPostsData }) {
                 <a className='postsListSingleTitle' target='blank' rel='noopener noreferrer'>{title}</a>
               </Link>
               <br />
+              <i>{author}</i>
               <small className={utilStyles.lightText}>
                 <Date dateString={date} />
               </small>
+              <br />
               <br />
               {/* <img classname = "postsListImage" src={image} alt={id}/> */}
             </li>
