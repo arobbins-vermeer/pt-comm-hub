@@ -22,18 +22,18 @@ export default function Post({ postData }) {
         <meta property="og:image:width" content="1200"/>
         <meta property="og:image" content={postData.image}/>
         <meta name="twitter:image" content={postData.image}/>      
-        <meta name="twitter:card" content="summary_large_image"/>  
         <meta property="og:url" content={postData.url} />
-        <meta property="og:site_name" content="Here Now Body" />
-        <meta name="twitter:site" content="@herenowbody"/>
-        <meta name="twitter:creator" content="@herenowbody"/>      
       </Head>
+
       <div className='ten columns singlePost'>
         {postData.title}
         <br />
         {postData.description}
         <br />
+        {postData.author}
+        <br />
         <Date dateString={postData.date} />
+        <br />
         <br />
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </div>

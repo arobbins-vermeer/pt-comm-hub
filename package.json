@@ -1,18 +1,21 @@
 {
-  "name": "my-app",
+  "name": "pt-blog",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export"
   },
   "dependencies": {
     "date-fns": "^2.14.0",
-    "gray-matter": "^4.0.2",
-    "next": "^9.3.5",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "remark": "^12.0.0",
-    "remark-html": "^11.0.2"
+    "file-system": "^2.2.2",
+    "fs": "^0.0.1-security",
+    "gray-matter": "^4.0.3",
+    "next": "^12.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.1",
+    "sort-by": "^1.2.0",
+    "object-path": ">=0.11.8"
   }
 }
