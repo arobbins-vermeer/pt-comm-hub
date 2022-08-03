@@ -5,6 +5,7 @@ on:
     branches:
       - main
       - debug-3
+
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
