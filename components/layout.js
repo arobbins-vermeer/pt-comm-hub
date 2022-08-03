@@ -34,14 +34,6 @@ export default function Layout({ children, home }) {
               </div>
               <div className='nine columns header'>
                   <h1 className='headerTitle'>{name}</h1>
-                {/* <section className='navbar'>
-                  <button onClick={() => setCategory(viewCategory === 'neck-pain' ? 'all' : 'neck-pain')}>Neck Pain</button>
-                  <button onClick={() => setCategory(viewCategory === 'low-back-pain' ? 'all' : 'low-back-pain')}>Low Back Pain</button>
-                  <button onClick={() => setCategory(viewCategory === 'chronic-pain' ? 'all' : 'chronic-pain')}>Chronic Pain</button>
-                  <button onClick={() => setCategory(viewCategory === 'pelvic-health' ? 'all' : 'pelvic-health')}>Pelvic Health</button>
-                  <button onClick={() => setCategory(viewCategory === 'miscellaneous' ? 'all' : 'miscellaneous')}>Miscellaneous</button>
-                  <button onClick={() => setCategory(viewCategory === 'all' ? 'all': 'all')}>All</button>      
-                </section> */}
               </div>
             </>
           ) : (
@@ -69,18 +61,6 @@ export default function Layout({ children, home }) {
         </header>
     </div>    
 
-    {/* <div className='row'>
-      <div className='twelve columns navbar'>
-             <button onClick={() => setCategory(viewCategory === 'neck-pain' ? 'all' : 'neck-pain')}>Neck Pain</button>
-            <button onClick={() => setCategory(viewCategory === 'low-back-pain' ? 'all' : 'low-back-pain')}>Low Back Pain</button>
-            <button onClick={() => setCategory(viewCategory === 'chronic-pain' ? 'all' : 'chronic-pain')}>Chronic Pain</button>
-            <button onClick={() => setCategory(viewCategory === 'pelvic-health' ? 'all' : 'pelvic-health')}>Pelvic Health</button>
-            <button onClick={() => setCategory(viewCategory === 'miscellaneous' ? 'all' : 'miscellaneous')}>Miscellaneous</button>
-            <button onClick={() => setCategory(viewCategory === 'all' ? 'all': 'all')}>All</button>          *
-        </div>
-      </div> */}
-     
-
     <div className='row'>
       <div className='nine columns'>
         <main>{children}</main>
@@ -97,7 +77,7 @@ export default function Layout({ children, home }) {
               <section className="sidebarItem">
                       <h3 className="sidebarTitle">Contributing Content</h3>
                       <p>
-                          To contribute content to this site please refer to the README on <a href = "https://github.com/vermeer-corp/pt-swa-comm-hub-v2">GitHub</a>
+                          To contribute content to this site please refer to the README on <a href = "https://github.com/arobbins-vermeer/pt-comm-hub/tree/contribute">GitHub</a>
                       </p>
               </section> 
         </sidebar> 

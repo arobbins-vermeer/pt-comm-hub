@@ -2,7 +2,7 @@
 
 This repo houses the **Platform Team Communications Hub**, it is a place where users can come for information and also post their own contributions. To make a post please follow these steps: 
 
-    1. Navitage to the `contribute` branch
+    1. Navitage to the `contribute` branch (if the page did not open to it)
     2. Go to `posts/post-template.md`
     3. In your editor of choice (or GitHub), create a new `.md` file within `posts/<category>`
     4. Copy the contents of `post-template.md` into the file you just created
