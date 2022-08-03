@@ -33,7 +33,7 @@ export default function Post({ postData }) {
         <br />
         {postData.description}
         <br />
-        {postDate.author}
+        {postData.author}
         <br />
         <br />
         <Date dateString={postData.date} />
